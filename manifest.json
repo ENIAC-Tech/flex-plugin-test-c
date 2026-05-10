@@ -8,7 +8,7 @@
     "name": "ENIAC-Tech",
     "email": ""
   },
-  "minHostVersion": "2.5.0",
+  "minHostVersion": "1.0.0",
   "native": false,
   "platforms": [
     "win32-x64",
