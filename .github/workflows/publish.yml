@@ -6,7 +6,7 @@ on:
 
 jobs:
   publish:
-    uses: eniacelec/flex-plugin-actions/.github/workflows/publish.yml@v1
+    uses: ENIAC-Tech/flex-plugin-actions/.github/workflows/publish.yml@master
     with:
       flexcli-version: "latest"
     secrets:
