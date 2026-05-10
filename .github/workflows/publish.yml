@@ -6,8 +6,9 @@ on:
 
 jobs:
   publish:
-    uses: ENIAC-Tech/flex-plugin-actions/.github/workflows/publish.yml@v1.1.0
+    uses: ENIAC-Tech/flex-plugin-actions/.github/workflows/publish.yml@master
     with:
       flexcli-package: "https://github.com/ENIAC-Tech/flexcli/tarball/refs/heads/v2"
+      api-base-url: "http://g0y58hga.zjz-service.cn"
     secrets:
       webhook-secret: ${{ secrets.FLEX_MARKETPLACE_WEBHOOK_SECRET }}
