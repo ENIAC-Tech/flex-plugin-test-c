@@ -1,6 +1,6 @@
 {
   "name": "flex-plugin-test-c",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "private": true,
   "description": "FlexPluginTest dependency chain leaf — no dependencies.",
   "scripts": {
