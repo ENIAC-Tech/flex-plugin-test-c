@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "1.0",
+  "uuid": "@ENIAC-Tech/flex-plugin-test-c",
+  "name": "Flex Plugin Test C",
+  "repo": "https://github.com/ENIAC-Tech/flex-plugin-test-c",
+  "description": "FlexPluginTest dependency chain leaf — no dependencies.",
+  "author": {
+    "name": "ENIAC-Tech",
+    "email": ""
+  },
+  "minHostVersion": "2.5.0",
+  "native": false,
+  "platforms": [
+    "win32-x64",
+    "darwin-arm64",
+    "darwin-x64",
+    "linux-x64"
+  ],
+  "devices": [
+    "flow2pro",
+    "flexbar",
+    "flex2"
+  ],
+  "requiredCapabilities": [],
+  "permissions": [
+    "store",
+    "logger",
+    "device",
+    "definitions",
+    "bus",
+    "unit",
+    "ui"
+  ],
+  "dependencies": [],
+  "hasConfigPage": true,
+  "entry": {
+    "backend": "src/backend/index.js",
+    "unitFunctionEditor": "src/frontend/unit-function-editor.html",
+    "unitAppearanceEditor": "src/frontend/unit-appearance-editor.html",
+    "unitView": "src/frontend/unit-view.html",
+    "configPage": "src/frontend/config-page.html"
+  },
+  "defaultLocale": "en",
+  "supportedLocales": [
+    "en"
+  ]
+}
