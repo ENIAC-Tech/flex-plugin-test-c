@@ -9,8 +9,8 @@
     "pack": "flexcli plugin-v2 pack"
   },
   "dependencies": {
-    "@flexsdk/runtime": "file:./vendor/flexsdk-runtime-2.1.0.tgz",
-    "@flexsdk/types": "file:./vendor/flexsdk-types-2.1.0.tgz"
+    "@flexsdk/runtime": "file:./vendor/flexsdk-runtime-2.1.1.tgz",
+    "@flexsdk/types": "file:./vendor/flexsdk-types-2.1.1.tgz"
   },
   "devDependencies": {
     "@mdi/font": "^7.4.47",

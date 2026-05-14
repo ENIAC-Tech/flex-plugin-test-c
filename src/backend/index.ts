@@ -29,6 +29,14 @@ export default class FlexPluginTestCPlugin extends FlexPluginBase {
     await super.onLoad(ctx);
     this.logger.info('Plugin loaded');
 
+    this.registerDependencyApi('getDependencyApiProbe', async (input?: string) => {
+      return {
+        plugin: 'c',
+        input: input ?? 'from-c',
+        message: 'hello-from-c'
+      };
+    });
+
     this.registerRendererRpc('getMessage', async () => {
       return ctx.hostApi.store.get('message', 'Hello from plugin!');
     });
